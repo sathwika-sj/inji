@@ -12,12 +12,12 @@ on:
       mimotoBackendServiceUrl:
         description: 'Mimoto backend service URL'
         required: true
-        default: 'https://api.sandbox.mosip.net'
+        default: 'https://api.onpremdev.idencode.link'
         type: string
       esignetBackendServiceUrl:
         description: 'Esignet backend service URL'
         required: true
-        default: 'https://api.sandbox.mosip.net'
+        default: 'https://api.onpremdev.idencode.link'
         type: string
       allow_env_edit:
         description: 'Edit ENV'
